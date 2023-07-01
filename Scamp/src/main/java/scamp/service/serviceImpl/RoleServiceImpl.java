@@ -2,7 +2,7 @@ package scamp.service.serviceImpl;
 
 import org.springframework.stereotype.Service;
 import scamp.model.entity.Role;
-import scamp.model.entity.RoleName;
+import scamp.model.enumerated.RoleName;
 import scamp.repository.RoleRepository;
 import scamp.service.RoleService;
 

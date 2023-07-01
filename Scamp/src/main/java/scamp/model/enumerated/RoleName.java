@@ -1,4 +1,4 @@
-package scamp.model.entity;
+package scamp.model.enumerated;
 
 public enum RoleName {
 
