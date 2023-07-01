@@ -1,10 +1,7 @@
-package scamp.model.init;
+package scamp.init;
 
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.event.EventListener;
-import scamp.service.EmailService;
 import scamp.service.RoleService;
 import scamp.service.UserService;
 
