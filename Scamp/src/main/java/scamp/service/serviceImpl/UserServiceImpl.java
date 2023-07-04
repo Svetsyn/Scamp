@@ -39,6 +39,7 @@ public class UserServiceImpl implements UserService {
             user.setRate(100L);
             List<Role> allRoles = roleRepository.findAll();
             user.setRoles(allRoles);
+            user.setAvatar(null);
             userRepository.save(user);
 
             emailService.sendSimpleMessage(user.getEmail(),ADMIN_MAIL_SUBJECT,ADMIN_MAIL_TEXT);

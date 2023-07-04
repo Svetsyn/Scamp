@@ -1,9 +1,6 @@
 package scamp.model.entity;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.OneToMany;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -32,4 +29,7 @@ public class User extends BaseEntity{
 
     @OneToMany
     private List<Role> roles;
+
+    @ManyToOne
+    private Image avatar;
 }

@@ -28,10 +28,10 @@ public class Accident extends BaseEntity {
     @Column(name = "description",columnDefinition = "TEXT")
     private String description;
 
-    @Column(name = "img")
-    private String img;
-
     @ManyToOne
     private User user;
+
+    @OneToMany
+    private List<Image> images;
 
 }
