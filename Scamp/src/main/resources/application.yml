@@ -11,7 +11,7 @@ spring:
     host: smtp.gmail.com
     username: scampaddress@gmail.com
     port: '587'
-    password: sobrjxhixeilbwlf
+    password: 
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
     password: Svetsyn123
@@ -40,7 +40,7 @@ spring:
 #spring.mail.host=smtp.gmail.com
 #spring.mail.port=587
 #spring.mail.username=scampaddress@gmail.com
-#spring.mail.password=sobrjxhixeilbwlf
+#spring.mail.password=
 #spring.mail.properties.mail.smtp.auth=true
 #spring.mail.properties.mail.smtp.starttls.enable=true
 #spring.mail.properties.mail.smtp.ssl.trust=smtp.gmail.com
